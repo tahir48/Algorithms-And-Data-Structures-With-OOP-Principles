@@ -25,23 +25,7 @@ class Queue:
             self.rear = newnode
         else:
             self.rear.next = newnode
-            self.rear = newnode
-        
-        # newnode = Node(value)
-        # if self.length == 0:
-        #     self.rear = newnode
-        #     self.front = newnode
-        # else:
-        #     newnode.next = self.rear
-        #     self.rear = newnode
-        # self.length += 1
-        # newnode = Node(value)
-        # if self.rear is None:
-        #     self.rear = newnode
-        #     self.front = newnode
-        # else:
-        #     newnode.next = self.rear
-        #     self.rear = newnode    
+            self.rear = newnode   
         self.length += 1
         
             
