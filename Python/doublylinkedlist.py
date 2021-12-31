@@ -73,7 +73,7 @@ class DoublyLinkedList:
         
         
     def get(self,index):
-        if index > self.length and index < 0:
+        if index > self.length or index < 0:
             return False
         if self.length == 0:
             return
@@ -89,7 +89,7 @@ class DoublyLinkedList:
         
     
     def remove(self, index):
-        if index > self.length and index < 0:
+        if index > self.length or index < 0:
             return False
         if self.length == 0:
             return
@@ -108,13 +108,13 @@ class DoublyLinkedList:
         
         
     def get_value(self, index):
-        if index > self.length and index < 0:
+        if index > self.length or index < 0:
             return False
         temp = self.get(index)
         return temp.value
     
     def set_value(self, index, value):
-        if index > self.length and index < 0:
+        if index > self.length or index < 0:
             return False
         if self.length == 0:
             return
