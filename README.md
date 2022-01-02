@@ -2,7 +2,7 @@
 ### Contents
 1. Introduction
 2. Data Structures and Methods
-3. Algortihms and Methods
+3. Algorithms and Methods
 4. Some Notes
 #### Introduction
 
@@ -14,9 +14,10 @@ This repository includes implementation of some algorithms and data structures i
 3. Queue with constructor, print, enqueue and dequeue methods.
 4. Stacks with constructor, print, push, pop methods.
 5. Trees (On the way)
-6. Graphs (On the way)
+6. Hash Tables (On the way)
+7. Graphs (On the way)
 
-#### Algortihms
+#### Algorithms
 
 (On the way)
 
