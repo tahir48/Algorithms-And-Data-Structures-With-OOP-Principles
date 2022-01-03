@@ -25,11 +25,10 @@ export class Stack {
         var newnode = new Node(value);
         if (this.top == null) {
             this.top = newnode;
-            this.height += 1;
-            return "thanks Ali Kaptan"
-        }
+        } else {
         newnode.next = this.top
         this.top = newnode
+        }
         this.height += 1
     }
 
