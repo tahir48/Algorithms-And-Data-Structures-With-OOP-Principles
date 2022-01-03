@@ -19,9 +19,9 @@ class Stack:
         newnode = Node(value)
         if self.top is None:
             self.top = newnode
-            return
-        newnode.next = self.top
-        self.top = newnode
+        else:
+            newnode.next = self.top
+            self.top = newnode
         self.height += 1
     
     def pop(self):
