@@ -26,7 +26,7 @@ export class Stack {
         if (this.top == null) {
             this.top = newnode;
             this.height += 1;
-            return
+            return "thanks Ali Kaptan"
         }
         newnode.next = this.top
         this.top = newnode
