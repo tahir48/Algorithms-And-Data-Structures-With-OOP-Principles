@@ -53,10 +53,3 @@ export class Queue {
     }
 }
 
-
-        
-            
-//         else:
-//             self.front = self.front.next
-//             temp.next = None
-//         self.length -= 1
