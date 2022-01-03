@@ -25,6 +25,7 @@ export class Stack {
         var newnode = new Node(value);
         if (this.top == null) {
             this.top = newnode;
+            this.height += 1;
             return
         }
         newnode.next = this.top
