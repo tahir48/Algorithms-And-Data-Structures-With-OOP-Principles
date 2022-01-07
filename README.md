@@ -6,7 +6,7 @@
 4. Some Notes
 #### Introduction
 
-This repository includes implementation of some algorithms and data structures in several programming languages using principles of Object Oriented Programming.
+This repository includes implementation of some algorithms and data structures in several programming languages using principles of Object Oriented Programming (and PEP-8 Guidelines for Python).
 
 #### Data Structures and Methods
 1. Linked List with constructor, print, append, pop, prepend, pop_first, get, remove, get value and set value methods.
