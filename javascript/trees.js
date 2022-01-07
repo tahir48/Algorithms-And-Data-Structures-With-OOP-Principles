@@ -64,22 +64,4 @@ export class BinarySearchTree {
 
 }
 
-//     def contains(self,value):
-//         if self.root == None:
-//             return False
-//         temp = self.root
-//         while temp:
-//             if temp.value == value:
-//                 return True
-//             if temp.value < value:
-//                 if temp.right is not None:
-//                     temp = temp.right
-//                 else:
-//                     return False
-//             elif temp.value > value:
-//                 if temp.left is not None:
-//                     temp = temp.left
-//                 else:
-//                     return False
-//         return False
                 
