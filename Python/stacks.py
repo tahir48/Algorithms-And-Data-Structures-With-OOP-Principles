@@ -1,11 +1,14 @@
 from mynode import Node
 
+
 class Stack:
     
-    def __init__(self,value):
+    
+    def __init__(self, value):
         newnode = Node(value)
         self.top = newnode
         self.height = 1
+    
     
     def print_stack(self):
         if self.top is None:
@@ -15,7 +18,8 @@ class Stack:
             print(temp.value)
             temp = temp.next
      
-    def push(self,value):
+    
+    def push(self, value):
         newnode = Node(value)
         if self.top is None:
             self.top = newnode
@@ -23,6 +27,7 @@ class Stack:
             newnode.next = self.top
             self.top = newnode
         self.height += 1
+    
     
     def pop(self):
         if self.height == 0:
@@ -32,7 +37,6 @@ class Stack:
         self.top = temp
         self.height -= 1
         
-    
     
 my_stack = Stack(0)
 my_stack.push(1)
@@ -44,8 +48,6 @@ my_stack.pop()
 my_stack.pop()
 my_stack.pop()
 my_stack.pop()
-
-
 my_stack.print_stack() 
     
             
