@@ -3,11 +3,13 @@ from MyTreeNode import TreeNode
 
 class BST:
 
-    def __init__(self,value):
+    
+    def __init__(self, value):
         newnode = TreeNode(value)
         self.root = newnode
 
-    def insert(self,value):
+        
+    def insert(self, value):
         newnode = TreeNode(value)
         if self.root is None:
             self.root = newnode
@@ -27,7 +29,8 @@ class BST:
                     temp.left = newnode
                     return
 
-    def contains(self,value):
+                
+    def contains(self, value):
         if self.root == None:
             return False
         temp = self.root
