@@ -1,7 +1,7 @@
 class Node:
     
     
-    def __init__(self, value = None):
+    def __init__(self, value=None):
         self._value = value
         self.next = None
     
@@ -21,7 +21,7 @@ class Node:
 class DoublyNode:
     
     
-    def __init__(self, value = None):
+    def __init__(self, value=None):
         self._value = value
         self.next = None
         self.prev = None
