@@ -30,9 +30,5 @@ This repository includes implementation of some algorithms and data structures i
       - Preorder
       - Postorder
       - Inorder
-  
-
-
-#### Some Notes
 
 
