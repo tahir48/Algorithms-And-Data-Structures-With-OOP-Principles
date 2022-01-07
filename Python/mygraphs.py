@@ -1,6 +1,3 @@
-
-
-
 class Graph:
     
     
@@ -13,14 +10,14 @@ class Graph:
             print(vertices, ":" , self.adjacency_list[vertices])
 
 
-    def add_vertex(self,vertex):
+    def add_vertex(self, vertex):
         if vertex not in self.adjacency_list.keys():
             self.adjacency_list[vertex] = []
             return True
         return False
 
 
-    def add_edge(self,vertex1,vertex2):
+    def add_edge(self, vertex1, vertex2):
         if vertex2 not in self.adjacency_list[vertex1] and vertex1 not in self.adjacency_list[vertex2]:
             self.adjacency_list[vertex1].append(vertex2)
             self.adjacency_list[vertex2].append(vertex1)
@@ -28,7 +25,7 @@ class Graph:
             return False
 
 
-    def remove_edge(self,vertex1,vertex2):
+    def remove_edge(self, vertex1, vertex2):
         if vertex2 in self.adjacency_list[vertex1] and vertex1 in self.adjacency_list[vertex2]:
             self.adjacency_list[vertex1].remove(vertex2)
             self.adjacency_list[vertex2].remove(vertex1)
@@ -36,7 +33,7 @@ class Graph:
             return False
         
 
-    def remove_vertex(self,vertex):
+    def remove_vertex(self, vertex):
         if vertex in self.adjacency_list.keys():
             for vertices in self.adjacency_list[vertex]:
                 self.adjacency_list[vertices].remove(vertex)
@@ -44,6 +41,7 @@ class Graph:
             return True
         return False
 
+    
 my_graph = Graph()
 my_graph.add_vertex('A')
 my_graph.add_vertex('B')
