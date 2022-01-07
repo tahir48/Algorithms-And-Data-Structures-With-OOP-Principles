@@ -2,6 +2,7 @@ from mynode import Node
 
 
 class LinkedList:
+
     
     def __init__(self, value):
         newnode = Node(value)
@@ -17,6 +18,7 @@ class LinkedList:
         while temp is not None:
             print(temp.value)
             temp = temp.next
+        
         
     def append(self, value):
         new_node = Node(value)
@@ -44,8 +46,6 @@ class LinkedList:
         self.length -= 1
         
             
-    
-    
     def prepend(self, value):
         new_node = Node(value)
         if self.head is None:
@@ -56,9 +56,7 @@ class LinkedList:
             self.head = new_node
         self.length += 1
         
-    
-    
-    
+   
     def pop_first(self):
         if self.length == 0:
             return
@@ -72,7 +70,7 @@ class LinkedList:
         self.length -= 1
         
         
-    def get(self,index):
+    def get(self, index):
         if index > self.length and index < 0:
             return False
         if self.length == 0:
@@ -83,7 +81,6 @@ class LinkedList:
         return temp
     
         
-    
     def remove(self, index):
         if index > self.length and index < 0:
             return False
@@ -107,6 +104,7 @@ class LinkedList:
         temp = self.get(index)
         return temp.value
     
+    
     def set_value(self, index, value):
         if index > self.length and index < 0:
             return False
@@ -114,8 +112,6 @@ class LinkedList:
             return
         temp = self.get(index)
         temp.value = value
-    
-    
     
     
 my_list = LinkedList(1)
