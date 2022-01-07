@@ -1,4 +1,4 @@
-# Algorithms-And-Data-Structures
+# Algorithms-And-Data-Structures-With-OOP-Principles
 ### Contents
 1. Introduction
 2. Data Structures and Methods
