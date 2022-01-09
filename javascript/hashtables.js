@@ -48,12 +48,3 @@ export class HashTable {
 
 
 }
-
-//     def get_item(self,key):
-//         index = self.myhasher(key)
-//         if self.Table[index] is None:
-//             return False
-//         else:
-//             for i in range(len(self.Table[index])):
-//                 if self.Table[index][i][0] == key:
-//                     return self.Table[index][i][1]
